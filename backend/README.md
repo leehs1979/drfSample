@@ -21,10 +21,21 @@
 > python manage.py migrate
 ```
 
+### Admin 계정생성
+```
+> python manage.py createsuperuser
+```
+
 ### 테스트 서버 실행 및 결과 확인
 ```
-> python manage.py makemigrations youtubeapi
-> python manage.py migrate
+> python manage.py runserver
+
+(호출결과)
+http://127.0.0.1:8080/admin/
+http://127.0.0.1:8080/api/videos/
+http://127.0.0.1:8080/api/videos/1/
+http://127.0.0.1:8080/auth/
+http://127.0.0.1:8080/api/ratings/
 ```
 
 ### 참고
