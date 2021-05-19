@@ -6,7 +6,7 @@
 ```
 > cd "backend설치된 경로하위"
 > python -m venv venv
-(Windows) .\venv\bin\activate.bat
+(Windows) .\venv\Scripts\activate.bat
 (Linux) source ./venv/bin/activate
 ```
 
